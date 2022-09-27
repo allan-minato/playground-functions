@@ -37,13 +37,27 @@ return wins * 3 + ties * 1
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+
+function highestCount(numeros) {
+  let occurrence = 0;
+  let highestNumber = numeros[0];
+
+  for(let numero of numeros){
+    if(numero > highestNumber){
+      highestNumber = numero;
+      occurrence = 1; 
+    }else if(numero == highestNumber){
+      occurrence += 1;
+    }
+  }
+  
+  return occurrence;
 }
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+
+  
 }
 
 // Desafio 8
