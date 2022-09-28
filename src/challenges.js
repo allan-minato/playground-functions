@@ -77,8 +77,6 @@ function catAndMouse(mouse, cat1, cat2) {
 function fizzBuzz(arrNumbers) {
   let arrReturn = [];
 
-  document.getElementById()
-
   for (let index = 0; index < arrNumbers.length; index++) {
 
     if((arrNumbers[index] % 3) === 0 && (arrNumbers[index] % 5) === 0) {
